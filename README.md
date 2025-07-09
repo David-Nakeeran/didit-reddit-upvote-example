@@ -58,6 +58,8 @@ Achieved all but 1 stretch goal on Moodle.
 🎯 If so, could you please tell us what was it that you found difficult about these tasks?
 Didn't implement TipTap (TippyTaps) as an editor. It is something I want to explore in the future.
 
+I also don't think the likes work properly, if you could tell me where I went wrong and how to fix it, that would be great!
+
 What went really well and what could have gone better?
 First time jumping into an existing code base was quite the experience.
 
