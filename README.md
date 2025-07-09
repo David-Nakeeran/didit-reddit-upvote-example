@@ -30,7 +30,7 @@ The project is a work in progress and is not yet complete.
 5. Run `npm run dev` to start the development server
 6. Open [http://localhost:3000](http://localhost:3000) with your browser to see the site
 
-## Potential future features
+## Potential future feature
 
 - [ ] User profiles
 - [ ] Sorting posts by recent (date posted), top (most upvotes), and most controversial (most upvotes _and_ downvotes)
