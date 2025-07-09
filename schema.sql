@@ -78,3 +78,7 @@ CREATE TABLE votes (
     created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
     -- UNIQUE(user_id, post_id, vote_type)
 );
+
+CREATE UNIQUE INDEX unique_post_vote
+ON votes (user_id, post_id)
+WHERE vote_type = 'post';
