@@ -46,3 +46,23 @@ The project is a work in progress and is not yet complete.
 - [ ] User following
 - [ ] User feed (posts from users you follow)
 - [ ] User flair
+
+## Reflections
+
+Please mention the requirements you met and which goals you achieved for this assignment.
+All basic requirements were met.
+
+🎯 Were there any requirements or goals that you were not quite able to achieve?
+Achieved all but 1 stretch goal on Moodle.
+
+🎯 If so, could you please tell us what was it that you found difficult about these tasks?
+Didn't implement TipTap (TippyTaps) as an editor. It is something I want to explore in the future.
+
+What went really well and what could have gone better?
+First time jumping into an existing code base was quite the experience.
+
+Creating a partial unique index in PostgreSQL (rather than a regular UNIQUE constraint) was a new concept for me, and understanding how to enforce single vote behavior at the DB level was rewarding.
+
+Something that could have gone better was time management — I got stuck trying to understand the vote schema before realising I needed to create a partial index using CREATE UNIQUE INDEX ... WHERE.
+
+Would appreciate any feedback on how I approached the database constraint and whether it would be better to also enforce vote limits in the app logic as a fallback.
